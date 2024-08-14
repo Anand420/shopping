@@ -1,4 +1,3 @@
-make sure you have been installed the packages to run that project
--> axios 
--> Redux toolkit 
-->  React Navigation
+steps to run the project 
+step 1 :- npm install (install all the necessary package)
+step 2 :- npx expo start 
