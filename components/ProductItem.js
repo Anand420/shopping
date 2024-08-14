@@ -13,7 +13,7 @@ const ProductItem = ({ product, onSelect, onIncrement, onDecrement }) => {
       <Text style={styles.price}>${product.price || 'N/A'}</Text>
       <View style={styles.controls}>
         <Button title="+" onPress={onIncrement} />
-        <Text style={styles.quantity}>{product.quantity || 0}</Text>
+        <Text style={styles.quantity}>{product.quantity || 1}</Text>
         <Button title="-" onPress={onDecrement} />
       </View>
       <Button title="View Details" onPress={onSelect} />
